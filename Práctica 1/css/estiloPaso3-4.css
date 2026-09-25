@@ -1,0 +1,28 @@
+*,*::before, *::after{
+    box-sizing: border-box;
+}
+article{
+    width:500px; 
+    padding:20px; 
+    border: 2px solid black; 
+    margin:24px;
+}
+header, footer{
+    padding: 20px;
+}
+header{
+    background-color: red;
+}
+footer{
+    background-color: antiquewhite;
+}
+
+/*Parte del paso 4, lo hago con la sección de bienvenida*/
+section{
+    width: 50vw;
+    margin:0 auto;
+}
+span{
+    margin:auto;
+}
+/*Un span no se alinea de la misma forma que un div porque el primero es de tipo inline y solo ocupa el espacio mínimo*/
